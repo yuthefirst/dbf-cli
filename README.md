@@ -21,7 +21,7 @@ CLI tool for converting DBF files (dBase, FoxPro etc) to SQLite.
       to-sqlite  Loading the DBF file to sqlite database
 
 Example usage:
-
+Dump `dbf` to `csv` file
     $ dbf-cli to_csv path/to/dbf-file path/to/output/csv
 
 or
@@ -30,6 +30,7 @@ or
 
 This will create a new `csv` file for each of the `.DBF` or `.dbf` files in the current directory with the same name of the `dbf` file.
 
+Dump `dbf` to `sqlite` database
     $ dbf-cli to_sqlite path/to/dbf-file path/to/output/database.db
 
 or
