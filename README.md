@@ -1,6 +1,6 @@
 # dbf-cli
 
-CLI tool for converting DBF files (dBase, FoxPro etc) to SQLite.
+CLI tool for converting DBF files (dBase, FoxPro etc) to SQLite, CSV file.
 
 ## Installation
 
